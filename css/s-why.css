@@ -1,0 +1,14 @@
+.s-why {
+    text-align: center;
+    position: relative;
+}
+.s-why__blue {
+    margin-bottom: 10px;
+}
+.s-why__title {
+    margin: 15px;
+}
+
+.s-why__suptitle {
+    margin-bottom: 40px;
+}
