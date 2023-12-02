@@ -6,10 +6,11 @@ body {
     font-weight: 600;
     overflow-x: hidden;
 }
+
 h2 {
     margin: 0;
 }
-ul {
+ul, li, a {
     list-style: none;
     margin: 0;
     padding: 0;
@@ -212,6 +213,25 @@ button.secondary {
 }
 
 button.secondary:hover {
+    border: 1px solid #0076F4;
+}
+
+input {
+    border-radius: 6px;
+    border: 1px solid rgba(248, 250, 251, 0.20);
+    color: #B4BCD0;
+    font-size: 16px;
+    font-weight: 350;
+    background: transparent;
+    outline: none;
+    padding: 15px 20px;
+    transition: 0.3s ease-in-out;
+}
+
+input:hover {
+    border: 1px solid #0076F4;
+}
+input:focus-visible {
     border: 1px solid #0076F4;
 }
 
